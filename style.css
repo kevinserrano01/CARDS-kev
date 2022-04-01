@@ -1,0 +1,68 @@
+body{ /*FONDO DE LA PÁGINA*/
+    background: #f0f4fb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.site-container{  /*CONTENEDOR PADRE*/
+    margin: 2rem auto;
+    max-width: 1000px; /*modificar el tamaño de los items*/
+    /* border: 3px solid red; */
+}
+
+.article-container{
+    gap: 3rem;
+    /* border: 3px solid red; */
+    margin: 0px;
+}
+
+.article-image{  /*IMAGENES DEL CONTENEDOR*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{  /*IMAGEN*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card{  /*ITEMS DEL CONTENEDOR PADRE*/
+    /* border: 3px solid black; */
+    background: white;
+    border-radius: 20px;
+    transition: 0 3s;
+}
+.article-card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 50px 0 rgba(34, 68, 123, 0.2);
+}
+
+.article-contenido{
+    padding: 40px;
+}
+
+.article-contenido .card-category{ /*CATEGORIA*/
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+}
+
+.article-contenido .card-title{ /*TITULO*/
+    margin: 1rem;
+    color: #22447b;
+}
+
+.article-contenido .card-parrafo{ /*PARRAFO*/
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #6b82a7;
+    margin: 0%;
+}
+
